@@ -1,0 +1,11 @@
+void ZappMass(int *mass, int *row);
+void PrintMass(int *mass, const int *row);
+void SortingMass(int *mass, int *row);
+void Summ_and_Proiz_Mass(int *mass, int*row, int *summ, long long *proiz);
+void PrintBiMass(int *mass, int *row, int *stolb);
+void ZappBiMass(int *mass, int*row, int *stolb);
+void sredneeBiMass(int *mass, int*row, int *stolb, int *arif, int *chet, int *nechet);
+int rec(int a, int b);
+enum Myenum { otr = 1, pol = 2, null = 3 };
+void mass123(int *mass, int *row);
+int myEnum();
